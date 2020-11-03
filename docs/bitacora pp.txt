@@ -1,0 +1,7 @@
+4/6: exposicion de los otros grupos. comenzamos a modificar el Anteproyecto con las actualizaciones del nuevo proyecto.
+6/6: realizacion del informe de requerimientos y modificacion del Anteproyecto.
+11/6: finalizacion del informe de requerimientos y del anteproyecto. Comenzamos a diseñar las interfaces y programarlas para que esten vinculadas.
+13/6: continuamos diseñando las interfaces y vinculandolas entre si, añadiendoles efectos a los botones y preparando los componentes para la insercion de las funciones. ademas, investigamos documentaciones
+            para poder desarrollar mejores funcionalidades.
+18/6: Finalizamos el diseño de la estructura de las interfaces para poder realizar las funciones de forma mas productiva.
+30/7: Debido a que el alumno Federico Alvarenga se inscribió a una pasantía, el alumno Ezequiel Franco tomará su lugar y continuará con su trabajo a partir de este día.

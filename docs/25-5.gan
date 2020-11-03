@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="diagrama alvarenga-killian" company="" webLink="http://" view-date="2018-03-01" view-index="0" gantt-divider-location="448" resource-divider-location="300" version="2.8.8" locale="es">
+    <description/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="259" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="91" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="79" order="2"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelDown" value=""/>
+        <timeline>
+            <![CDATA[486]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#3366ff #33ccff #ff3300 #ff9900 #006666 #f4f4f4 #0066ff #339900 #33ff33 #ff6666]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="209" order="0"/>
+        <field id="1" name="Función" width="87" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2018" month="5" date="26" type="WORKING_DAY">
+            <![CDATA[Excepción de fin de semana]]>
+        </date>
+        <date year="2018" month="5" date="27" type="WORKING_DAY">
+            <![CDATA[Excepción de fin de semana]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="24" name="Pensamiento del proyecto" color="#000000" meeting="false" start="2018-03-19" duration="34" complete="0" thirdDate="2018-03-19" thirdDate-constraint="0" expand="false">
+            <task id="25" name="LLuvia de ideas" color="#8cb6ce" meeting="false" start="2018-03-19" duration="1" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" name="Eleccion de la mejor idea" color="#8cb6ce" meeting="false" start="2018-03-20" duration="1" complete="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" name="Presentacion de las ideas" color="#8cb6ce" meeting="false" start="2018-03-21" duration="1" complete="0" expand="true"/>
+            <task id="573" name="Definición" color="#ff99ff" meeting="false" start="2018-03-22" duration="31" complete="0" thirdDate="2018-03-22" thirdDate-constraint="0" expand="false">
+                <task id="574" name="Definición del proyecto" color="#ff33ff" meeting="false" start="2018-03-22" duration="4" complete="0" expand="true">
+                    <task id="575" name="Determinar funcionalidades" color="#8cb6ce" meeting="false" start="2018-03-22" duration="3" complete="0" expand="true">
+                        <depend id="576" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="576" name="Desarrollar EML" color="#8cb6ce" meeting="false" start="2018-03-27" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="577" name="Eleccion del nombre" color="#8cb6ce" meeting="false" start="2018-05-02" duration="0" complete="0" expand="true">
+                    <depend id="579" type="2" difference="0" hardness="Strong"/>
+                    <task id="578" name="Cambio de proyecto" color="#ff3333" meeting="true" start="2018-05-02" duration="0" complete="0" thirdDate="2018-05-07" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="579" name="Eleccion y elaboracion del logo" color="#8cb6ce" meeting="false" start="2018-05-02" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="65" name="Análisis" color="#9999ff" meeting="false" start="2018-05-07" duration="4" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="false">
+            <depend id="164" type="2" difference="1" hardness="Strong"/>
+            <task id="68" name="Análisis de Riesgo" color="#6633ff" meeting="false" start="2018-05-07" duration="4" complete="0" expand="true">
+                <task id="70" name="Búsqueda de los principales riesgos" color="#8cb6ce" meeting="false" start="2018-05-07" duration="2" complete="0" expand="true">
+                    <depend id="71" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="73" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="71" name="Análisis cualitativo de los riesgos" color="#8cb6ce" meeting="false" start="2018-05-09" duration="1" complete="0" expand="true">
+                    <depend id="75" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="77" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="73" name="Análisis cuantitativo de los riesgos" color="#8cb6ce" meeting="false" start="2018-05-09" duration="1" complete="0" expand="true">
+                    <depend id="75" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="77" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="75" name="Plan de seguimiento y control de los riesgos" color="#8cb6ce" meeting="false" start="2018-05-10" duration="1" complete="0" expand="true"/>
+                <task id="77" name="Planificación de la respuesta a los riesgos" color="#8cb6ce" meeting="false" start="2018-05-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="79" name="Análisis de factibilidad" color="#66ff99" meeting="false" start="2018-05-07" duration="3" complete="0" expand="true">
+                <task id="81" name="Análisis de factibilidad operativa" color="#009966" meeting="false" start="2018-05-07" duration="2" complete="0" expand="true"/>
+                <task id="113" name="Análisis de factibilidad técnica" color="#006633" meeting="false" start="2018-05-07" duration="2" complete="0" expand="true">
+                    <task id="114" name="Evaluación de la infraestructura disponible" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true"/>
+                    <task id="115" name="Estudio de la tecnología" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true"/>
+                    <task id="116" name="Evaluación de los términos legales" color="#8cb6ce" meeting="false" start="2018-05-07" duration="2" complete="0" expand="true"/>
+                </task>
+                <task id="168" name="Factibilidad Económica" color="#ffff66" meeting="false" start="2018-05-07" duration="3" complete="0" expand="true">
+                    <task id="171" name="Costos Directos" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true">
+                        <depend id="484" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="176" name="Costos Indirectos" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true">
+                        <depend id="484" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="190" name="Costos de Soporte" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true"/>
+                    <task id="191" name="Analisis del mercado" color="#8cb6ce" meeting="false" start="2018-05-07" duration="3" complete="0" expand="true"/>
+                    <task id="195" name="Analisis Costo/Beneficio" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true"/>
+                    <task id="199" name="Indice de rentabilidad" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="123" name="Justificación" color="#9900ff" meeting="false" start="2018-04-17" duration="1" complete="0" expand="false">
+            <depend id="164" type="2" difference="0" hardness="Strong"/>
+            <task id="127" name="Matriz FODA" color="#8cb6ce" meeting="false" start="2018-04-17" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="164" name="Entrega Anteproyecto" color="#ff0033" meeting="true" start="2018-05-14" duration="0" complete="0" thirdDate="2018-04-18" thirdDate-constraint="0" expand="true">
+            <depend id="211" type="2" difference="1" hardness="Strong"/>
+        </task>
+        <task id="211" name="Determinación Modelo de Desarrollo" color="#8cb6ce" meeting="false" start="2018-05-15" duration="1" complete="0" thirdDate="2018-04-19" thirdDate-constraint="0" expand="true">
+            <depend id="294" type="2" difference="8" hardness="Strong"/>
+        </task>
+        <task id="253" name="Planificación de roles" color="#00cccc" meeting="false" start="2018-04-20" duration="5" complete="0" expand="false">
+            <task id="258" name="Busqueda de Roles" color="#8cb6ce" meeting="false" start="2018-04-20" duration="3" complete="0" expand="true">
+                <depend id="262" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="262" name="Selección de Roles" color="#8cb6ce" meeting="false" start="2018-04-25" duration="1" complete="0" expand="true">
+                <depend id="267" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="267" name="Distribución de roles" color="#8cb6ce" meeting="false" start="2018-04-26" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="283" name="Organizar proyecto" color="#3366ff" meeting="false" start="2018-04-27" duration="3" complete="0" expand="false">
+            <task id="286" name="Definir Objetivos" color="#8cb6ce" meeting="false" start="2018-04-27" duration="1" complete="0" expand="true"/>
+            <task id="288" name="Definir Alcance" color="#8cb6ce" meeting="false" start="2018-04-27" duration="1" complete="0" expand="true"/>
+            <task id="291" name="Definir limites y restricciones" color="#8cb6ce" meeting="false" start="2018-04-30" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="294" name="Planificación" color="#990099" meeting="false" start="2018-05-26" duration="3" complete="0" thirdDate="2018-05-02" thirdDate-constraint="0" expand="false">
+            <task id="296" name="Definicion de las tareas" color="#8cb6ce" meeting="false" start="2018-05-26" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="324" name="Busqueda" color="#3399ff" meeting="false" start="2018-05-07" duration="5" complete="0" thirdDate="2018-05-07" thirdDate-constraint="0" expand="false">
+            <depend id="382" type="2" difference="0" hardness="Strong"/>
+            <task id="328" name="Buscar información sobre las materias de nivelación" color="#8cb6ce" meeting="false" start="2018-05-07" duration="3" complete="0" expand="true"/>
+            <task id="326" name="Saber que profesores dan el curso de integración." color="#8cb6ce" meeting="false" start="2018-05-09" duration="1" complete="0" expand="true">
+                <depend id="335" type="2" difference="0" hardness="Strong"/>
+                <depend id="360" type="2" difference="10" hardness="Strong"/>
+                <depend id="395" type="2" difference="9" hardness="Strong"/>
+            </task>
+            <task id="333" name="Investigar bibliografía sobre las materias." color="#8cb6ce" meeting="false" start="2018-05-10" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="335" name="Reunion con profesora de Matemática" color="#009933" meeting="false" start="2018-05-10" duration="1" complete="0" thirdDate="2018-05-09" thirdDate-constraint="0" expand="true">
+            <depend id="382" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="355" name="Lluvia de ideas" color="#0033cc" meeting="false" start="2018-05-09" duration="2" complete="0" expand="true">
+            <depend id="382" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="94" name="Analisis de impacto" color="#006666" meeting="false" start="2018-05-14" duration="1" complete="0" expand="false">
+            <task id="98" name="Identificar los problemas potenciales debido a la implementación" color="#8cb6ce" meeting="false" start="2018-05-14" duration="1" complete="0" expand="true"/>
+            <task id="96" name="Identificar los beneficios potenciales debido a la implementación" color="#8cb6ce" meeting="false" start="2018-05-14" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="315" name="Planificacion" color="#8cb6ce" meeting="false" start="2018-05-15" duration="9" complete="0" expand="false">
+            <depend id="382" type="2" difference="4" hardness="Strong"/>
+            <task id="340" name="Planificación de tareas" color="#8cb6ce" meeting="false" start="2018-05-15" duration="9" complete="0" expand="true">
+                <task id="342" name="Definicion de Tareas" color="#8cb6ce" meeting="false" start="2018-05-15" duration="5" complete="0" expand="true"/>
+                <task id="344" name="Definicion Duracion de las tareas" color="#8cb6ce" meeting="false" start="2018-05-21" duration="3" complete="0" expand="true">
+                    <depend id="348" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="348" name="Gantt" color="#8cb6ce" meeting="false" start="2018-05-24" duration="2" complete="0" expand="true"/>
+                <task id="353" name="Pert" color="#8cb6ce" meeting="false" start="2018-05-25" duration="1" complete="0" expand="true"/>
+                <task id="380" name="Distribución de las tares según roles" color="#8cb6ce" meeting="false" start="2018-05-25" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="369" name="Definir seguimiento" color="#0099cc" meeting="false" start="2018-05-25" duration="1" complete="0" expand="true">
+                <task id="371" name="Definicon Hitos" color="#8cb6ce" meeting="false" start="2018-05-25" duration="1" complete="0" expand="true"/>
+                <task id="373" name="Definicion Entregables" color="#8cb6ce" meeting="false" start="2018-05-25" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="378" name="Fundamentacion del proyecto" color="#6666ff" meeting="false" start="2018-05-22" duration="1" complete="0" expand="true">
+            <depend id="503" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="503" name="Entrega Fundamentacion" color="#ff3300" meeting="true" start="2018-05-23" duration="0" complete="0" thirdDate="2018-05-23" thirdDate-constraint="0" expand="true"/>
+        <task id="395" name="Reunion profesora de Lengua" color="#009900" meeting="false" start="2018-05-23" duration="1" complete="0" thirdDate="2018-05-22" thirdDate-constraint="0" expand="true">
+            <depend id="382" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="360" name="Reunion profesora de Tecnicas de Estudio" color="#009900" meeting="false" start="2018-05-24" duration="1" complete="0" thirdDate="2018-05-24" thirdDate-constraint="0" expand="true">
+            <depend id="382" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="384" name="Organizar proyecto" color="#99ccff" meeting="false" start="2018-05-07" duration="16" complete="0" expand="false">
+            <depend id="382" type="2" difference="3" hardness="Strong"/>
+            <task id="387" name="Definir Objetivos" color="#8cb6ce" meeting="false" start="2018-05-07" duration="1" complete="0" expand="true"/>
+            <task id="391" name="Definir Limites y restricciones" color="#8cb6ce" meeting="false" start="2018-05-26" duration="1" complete="0" expand="true"/>
+            <task id="389" name="Definir Alcance" color="#8cb6ce" meeting="false" start="2018-05-26" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="405" name="Factibilidad Operativa" color="#33ff33" meeting="false" start="2018-05-08" duration="5" complete="0" expand="true">
+            <depend id="382" type="2" difference="11" hardness="Strong"/>
+        </task>
+        <task id="410" name="Factibilidad Tecnica" color="#33ff33" meeting="false" start="2018-05-10" duration="2" complete="0" expand="true">
+            <depend id="382" type="2" difference="12" hardness="Strong"/>
+        </task>
+        <task id="382" name="Entrega Informe de Planificacion" color="#ff0000" meeting="true" start="2018-05-30" duration="0" complete="0" thirdDate="2018-05-30" thirdDate-constraint="0" expand="true">
+            <depend id="460" type="2" difference="3" hardness="Strong"/>
+        </task>
+        <task id="460" name="Recopilacion de bibliografia" color="#0066ff" meeting="false" start="2018-06-04" duration="15" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true">
+            <depend id="477" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="429" name="Análisis de Riesgo 2" color="#6633ff" meeting="false" start="2018-06-04" duration="4" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="false">
+            <task id="431" name="Búsqueda de los principales riesgos" color="#8cb6ce" meeting="false" start="2018-06-04" duration="2" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true">
+                <depend id="433" type="2" difference="0" hardness="Rubber"/>
+                <depend id="435" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="433" name="Análisis cualitativo de los riesgos" color="#8cb6ce" meeting="false" start="2018-06-06" duration="1" complete="0" thirdDate="2018-06-06" thirdDate-constraint="0" expand="true">
+                <depend id="437" type="2" difference="0" hardness="Rubber"/>
+                <depend id="439" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="435" name="Análisis cuantitativo de los riesgos" color="#8cb6ce" meeting="false" start="2018-06-06" duration="1" complete="0" thirdDate="2018-06-06" thirdDate-constraint="0" expand="true">
+                <depend id="437" type="2" difference="0" hardness="Rubber"/>
+                <depend id="439" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="437" name="Plan de seguimiento y control de los riesgos" color="#8cb6ce" meeting="false" start="2018-06-07" duration="1" complete="0" thirdDate="2018-06-07" thirdDate-constraint="0" expand="true"/>
+            <task id="439" name="Planificación de la respuesta a los riesgos" color="#8cb6ce" meeting="false" start="2018-06-07" duration="1" complete="0" thirdDate="2018-06-07" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="403" name="Diseño" color="#3333ff" meeting="false" start="2018-06-25" duration="25" complete="0" expand="false">
+            <task id="427" name="Diseño de la interfaz" color="#339900" meeting="false" start="2018-06-25" duration="15" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true">
+                <task id="448" name="Eleccion de colores" color="#8cb6ce" meeting="false" start="2018-06-25" duration="5" complete="0" thirdDate="2018-06-18" thirdDate-constraint="0" expand="true"/>
+                <task id="450" name="Eleccion de disposicion de los elementos en pantalla" color="#8cb6ce" meeting="false" start="2018-06-25" duration="6" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" expand="true">
+                    <depend id="452" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="452" name="Implementacion del diseño" color="#8cb6ce" meeting="false" start="2018-07-03" duration="9" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="457" name="Diseño del diagrama entidad-relacion" color="#f4f4f4" meeting="false" start="2018-07-16" duration="10" complete="0" thirdDate="2018-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="481" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="472" name="Diseño diagrama de Clase" color="#006666" meeting="false" start="2018-07-16" duration="10" complete="0" thirdDate="2018-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="477" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="540" name="Testing" color="#8cb6ce" meeting="false" start="2018-07-03" duration="81" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" expand="false">
+            <task id="542" name="Planificación de la metodología de pruebas." color="#8cb6ce" meeting="false" start="2018-07-03" duration="3" complete="0" thirdDate="2018-06-18" thirdDate-constraint="0" expand="true">
+                <depend id="545" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="545" name="Búsqueda de los sujetos de pruebas." color="#8cb6ce" meeting="false" start="2018-07-06" duration="7" complete="0" thirdDate="2018-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="484" type="2" difference="9" hardness="Strong"/>
+            </task>
+            <task id="484" name="Pruebas de funcionamiento" color="#8cb6ce" meeting="false" start="2018-07-30" duration="40" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true"/>
+            <task id="486" name="Pruebas para encontrar fallos" color="#8cb6ce" meeting="false" start="2018-07-30" duration="40" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true"/>
+            <task id="489" name="Análisis de los resultados de las pruebas" color="#8cb6ce" meeting="false" start="2018-09-24" duration="3" complete="0" thirdDate="2018-09-24" thirdDate-constraint="0" expand="true">
+                <depend id="492" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="552" name="Prueba final" color="#8cb6ce" meeting="false" start="2018-10-15" duration="7" complete="0" thirdDate="2018-08-27" thirdDate-constraint="0" expand="true">
+                <depend id="495" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="475" name="Desarrollo" color="#ff9900" meeting="false" start="2018-07-30" duration="55" complete="0" thirdDate="2018-07-02" thirdDate-constraint="0" expand="false">
+            <task id="477" name="Creacion del codigo fuente del proyecto" color="#8cb6ce" meeting="false" start="2018-07-30" duration="40" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true">
+                <depend id="484" type="3" difference="0" hardness="Strong"/>
+                <depend id="486" type="3" difference="0" hardness="Strong"/>
+                <depend id="489" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="481" name="Implementacion diseño de BD" color="#8cb6ce" meeting="false" start="2018-07-30" duration="7" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true">
+                <task id="508" name="Creación de tablas" color="#8cb6ce" meeting="false" start="2018-07-30" duration="2" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true">
+                    <depend id="510" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="510" name="Establecer relaciones" color="#8cb6ce" meeting="false" start="2018-08-01" duration="2" complete="0" thirdDate="2018-07-30" thirdDate-constraint="0" expand="true">
+                    <depend id="513" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="513" name="Inserción de datos" color="#8cb6ce" meeting="false" start="2018-08-03" duration="3" complete="0" thirdDate="2018-08-01" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="492" name="Coreccion de errores" color="#8cb6ce" meeting="false" start="2018-09-24" duration="15" complete="0" thirdDate="2018-09-24" thirdDate-constraint="0" expand="true">
+                <depend id="552" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="495" name="Implementacion" color="#8cb6ce" meeting="false" start="2018-10-24" duration="10" complete="0" thirdDate="2018-10-15" thirdDate-constraint="0" expand="true">
+            <depend id="502" type="2" difference="20" hardness="Strong"/>
+        </task>
+        <task id="499" name="Documentacion" color="#33ccff" meeting="false" start="2018-11-07" duration="10" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="false">
+            <depend id="502" type="2" difference="10" hardness="Strong"/>
+            <task id="524" name="Redacción del manual técnico." color="#8cb6ce" meeting="false" start="2018-11-07" duration="6" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+            <task id="526" name="Redacción del manual de usuario" color="#3366ff" meeting="false" start="2018-11-15" duration="4" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                <task id="531" name="Captura de todas las interfaces del programa" color="#8cb6ce" meeting="false" start="2018-11-15" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+                    <depend id="533" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="533" name="Explicación de dichas capturas." color="#8cb6ce" meeting="false" start="2018-11-16" duration="3" complete="0" thirdDate="2018-11-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="502" name="Entrega final" color="#ff3300" meeting="true" start="2018-12-05" duration="0" complete="0" thirdDate="2018-11-28" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
